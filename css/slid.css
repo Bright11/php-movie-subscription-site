@@ -1,0 +1,98 @@
+/*slider*/
+#mycarousel .carousel-inner .carousel-item img{
+	height: 90vh;
+	width: 100%;
+}
+.slidesize{
+  object-fit: cover;
+  object-position: center center;
+}
+.carousel-inner .carousel-item > img{
+	-webkit-animation:thing 20s;
+	-o-animation:thing 20s;
+	animation:thing 20s;
+}
+@keyframes thing{
+	from{
+		transform: scale(1, 1);
+	}
+	to{
+		transform: scale(1.5, 1.5);
+	}
+}
+.carousel-caption{
+	bottom: 270px;
+	text-transform: uppercase;
+}
+#sidebar{
+	text-align: center;
+}
+#maincontent{
+	text-align: center;
+}
+
+.image a{
+	text-decoration: none;
+	color: black;
+}
+/*navbar*/
+.searchmovies{
+width: 100%; border-radius: 5px 5px; border-color: pink; height: 50px; background-color: #3cbc8d; color: white; font-size: 20px;
+}
+.Searchnow{
+	height: 50px; width: 100px;
+	color: white;
+	background: #3cbc8d;
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+.Searchnow{
+  margin-left:40%;
+  margin-right: 40%;
+  height: 50px; width: 100px;
+  color: white;
+  background: #3cbc8d;
+  font-size: 20px;
+}
+ 
+}
+@media only screen and (max-width: 767px){
+  .Searchnow{
+  margin-left:40%;
+  margin-right: 40%;
+  height: 50px; width: 100px;
+  color: white;
+  background: #3cbc8d;
+  font-size: 20px;
+}
+
+}
+.Searchnow:hover{
+	background-color: green;
+}
+.navbar-light .navbar-brand{
+	color: white;
+	font-size:25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+ .mynave ul li a{
+ 	letter-spacing: 1px;
+	color: white !important;
+	font-size: 20px;
+}
+.name h5 a{
+   background: #3cbc8d;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+ /*.mynave{
+   border-radius: 50px;
+  }*/
+  form .searchmovies{
+	border-radius: 50px;
+}

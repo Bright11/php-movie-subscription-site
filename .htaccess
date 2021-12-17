@@ -1,0 +1,49 @@
+RewriteEngine On
+
+#NC makes the rule non case sensitive
+#L makes this the last rule that this specific condition will match
+
+RewriteRule ^CATEGORY category.php [NC,L]
+
+RewriteRule ^PICTURES pictures.php [NC,L]
+
+RewriteRule ^FREE_VIDEOS free_videos.php [NC,L]
+RewriteRule ^ABOUT about.php [NC,L]
+
+RewriteRule ^LOGOUT logout.php [NC,L]
+RewriteRule ^REGISTER register.php [NC,L]
+RewriteRule ^FREEIMAGES freeimages.php [NC,L]
+RewriteRule ^SIGIN sigin.php [NC,L]
+RewriteRule ^REGISTER register.php [NC,L]
+
+RewriteRule ^FREEWATCH freewatch.php [NC,L]
+
+RewriteRule ^CATEGORY category.php [NC,L]
+
+RewriteRule ^WATCH watch.php [NC,L]
+
+RewriteRule ^RESET_PASSWORD reset_password.php [NC,L]
+
+RewriteRule ^VERIFY_EMAIL verify_email.php [NC,L]
+
+RewriteRule ^INPUT_RESETP input_resetp.php [NC,L]
+
+RewriteRule ^CONTACTUS contactus.php [NC,L]
+
+RewriteRule ^JPAYMENT jpayment.php [NC,L]
+
+RewriteRule ^PAYMENT_CANCELED payment_canceled.php [NC,L]
+
+RewriteRule ^JSUCCESSP jsuccessp.php [NC,L]
+RewriteRule ^INDEX index.php [NC,L]
+RewriteRule ^LATESTNEWS latestnews.php [NC,L]
+RewriteRule ^READNEWS readnews.php [NC,L]
+RewriteRule ^NEWSCATEGORY newscategory.php [NC,L]
+
+RewriteRule ^PLAY_AUDIO play_audio.php [NC,L]
+RewriteRule ^PLAY_VIDEO play_video.php [NC,L]
+
+RewriteRule ^DOWNLOAD download.php [NC,L]
+
+RewriteRule ^CART cart.php [NC,L]
+RewriteRule ^NEWSONGS newsongs.php [NC,L]

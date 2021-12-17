@@ -1,0 +1,18 @@
+#sidebar{
+  background:#3cbc8d;
+}
+#sidebar ul li a{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px !important;
+}
+.navbar-nav li a{
+	color: white !important;
+  font-size: 18px !important;
+  letter-spacing: 2px !important;
+}
+.form-control{
+  border:none;
+  background: #3cbc8d;
+  margin-bottom: 5px;
+}

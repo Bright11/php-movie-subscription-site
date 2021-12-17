@@ -1,0 +1,64 @@
+.image a{
+	text-decoration: none;
+	color: black;
+}
+.v_name{
+	font-size: 20px;
+	color: black;
+}
+
+.cat a{
+text-decoration:none;
+  color: black;
+  font-size: 20px;
+}
+
+.name h5 a{
+   background: #3cbc8d;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #comment input{
+	width: 100%;
+}
+#comment textarea{
+	width: 100%;
+}
+
+#footer{
+	width: 100%;
+  background: black;
+  color: white;
+}
+#footer p a{
+  letter-spacing: 2px;
+  color:white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size:18px;
+  font-weight: normal;
+}
+.copy_right{
+  text-align: center;
+}
+
+.gallery img{
+  transition: 1s;
+  height: 40vh;
+}
+.gallery h4{
+  letter-spacing: 1px;
+}
+.gallery:hover img{
+  cursor: pointer;
+  opacity: 0.6;
+   transition: width 1s, height 1s;
+   -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+

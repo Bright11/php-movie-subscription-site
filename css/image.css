@@ -1,0 +1,94 @@
+#index_movie{
+text-align: center;
+}
+.imageslid img{
+	width:30vh;
+	height: 30vh;
+}
+.imageslid:hover img{
+	opacity: 0.3;
+}
+.imageslid:hover .view{
+	opacity: 1;
+}
+.imageslid a{
+	text-decoration: none;
+	color: black;
+}
+.imageslid a{
+	text-decoration: none;
+	color: black;
+}
+.image img{
+width:50vh;
+height: 30vh;
+}
+.image img{
+opacity: 1;
+transition: .5s ease;
+}
+.view{
+opacity: 0;
+position: absolute;
+top:40%;
+left:40%;
+transform: translate(-50%,-50);
+-ms-transform:translate(-50%,-50);
+text-align: center;
+}
+.image:hover img{
+	opacity: 0.3;
+}
+.image:hover .view{
+	opacity: 1;
+}
+#new{
+	background: crimson;
+	border-radius: 50%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	position: absolute;
+	top:9%;
+	left:20%;
+}
+.ret_stars{
+	color: yellow;
+}
+.view button {
+	box-shadow: none;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+   text-align: center;
+}
+.fa-play-circle{
+	font-size: 50px;
+}
+.image img{
+width:50vh;
+height: 30vh;
+}
+.image a{
+	text-decoration: none;
+	color: black;
+}
+.image a{
+	text-decoration: none;
+	color: black;
+}
+.form-control{
+	font-style: 20px;
+	min-height: 50px;
+}
+.form-control:focus{
+border-color: #723dbe;
+box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+.form-group label{
+	font-size: 20px;
+}
+.login{
+	color: white;
+	text-transform: uppercase;
+}
