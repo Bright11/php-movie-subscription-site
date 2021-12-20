@@ -58,9 +58,9 @@ $result = mysqli_fetch_assoc($run);
 									<input name="merchant_key" type="hidden" value="you key.....">
 									<input id="merchant_code" type="hidden" value="........">
 									<input name="source" type="hidden" value="WIDGET">
-									<input name="success_url" type="hidden" value="https://www.jaxinnfilmsproduction.com/jsuccessp?jxpaycomplete=<?php echo $result['invoice_id'];?>">
-									<input name="cancelled_url" type="hidden" value="https://www.jaxinnfilmsproduction.com/payment_canceled?canceled=<?php echo $result['email'];?>">
-									<input id="invoice_id" name="invoice_id" type="hidden" value="<?php echo $result['invoice_id'];?>">
+									<input name="success_url" type="hidden" value="">
+									<input name="cancelled_url" type="hidden" value="">
+									<input id="invoice_id" name="invoice_id" type="hidden" value="">
 									<div class="row">
 										<div class="col-lg">
 											<div class="form-group input-group">
@@ -78,7 +78,7 @@ $result = mysqli_fetch_assoc($run);
 									<div class="row">
 										<div class="col-lg">
 											<div class="form-group input-group">
-												<input type="email" name="email" id="extra_email" class="form-control" value="<?php echo $result['email'];?>" readonly>
+												<input type="email" name="email" id="extra_email" class="form-control" value="" readonly>
 											</div>
 										</div>
 									</div>
