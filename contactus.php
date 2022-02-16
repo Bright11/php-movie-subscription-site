@@ -65,7 +65,7 @@ $mail->Port = '465';
 //set gmail username
  $mail->Username = "jaxinn@jaxinnfilmsproduction.com";
 //set gmail password
-$mail->Password = "WonderfulJesus@great1111";
+$mail->Password = "your password";
 $mail->setFrom($email,$name);
 $mail->addAddress('jaxinn@jaxinnfilmsproduction.com');
 $mail->addReplyTo($email);
